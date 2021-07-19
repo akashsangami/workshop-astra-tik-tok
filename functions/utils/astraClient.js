@@ -22,5 +22,3 @@ const getCollection = async () => {
     .namespace(process.env.ASTRA_DB_KEYSPACE)
     .collection("tktkposts");
 };
-
-module.exports = { getAstraClient, getCollection };
